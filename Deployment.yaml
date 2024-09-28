@@ -16,6 +16,6 @@ spec:
    spec:
      containers:
      - name: node
-       image: public.ecr.aws/sctp-sandbox/lovell-ecr:v2
+       image: public.ecr.aws/sctp-sandbox/lovell-ecr:latest
        ports:
        - containerPort: 3000
